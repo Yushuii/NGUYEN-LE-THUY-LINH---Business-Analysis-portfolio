@@ -1,0 +1,20 @@
+﻿with 
+MEMBER [Measures].[Quy1] AS
+([Measures].[Tong Tien], [Dim Ngay].[Quy].&[1])
+MEMBER [Measures].[Quy2] AS
+([Measures].[Tong Tien], [Dim Ngay].[Quy].&[2])
+MEMBER [Measures].[Quy3] AS
+([Measures].[Tong Tien], [Dim Ngay].[Quy].&[3])
+MEMBER [Measures].[Quy4] AS
+([Measures].[Tong Tien], [Dim Ngay].[Quy].&[4])
+member [TongDoanhThu] as ([Measures].[Tong Tien])
+ member [Danh gia] as
+ case
+ when [TongDoanhThu] < 55000000 then 'Xem xét'
+ when  [TongDoanhThu] >= 55000000 and  [TongDoanhThu] <= 100000000 then 'Ổn định'
+ Else 'Phát triển'
+end 
+select 
+{[Measures].[Quy1], [Measures].[Quy2] , [Measures].[Quy3], [Measures].[Quy4],[TongDoanhThu] ,[Danh gia]} on columns,
+order ([Dim Nhan Vien].[Ten Thanh Pho].children*[Dim Nhan Vien].[Ten Cua Hang].children*[Dim Ngay].[Nam].&[2023],[TongDoanhThu],desc) on rows
+from [N7 Guardian]

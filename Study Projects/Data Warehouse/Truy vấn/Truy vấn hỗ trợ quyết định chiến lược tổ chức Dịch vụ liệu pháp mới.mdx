@@ -1,0 +1,28 @@
+﻿WITH 
+MEMBER [Measures].[DanhGiaKPI] AS
+    IIF(
+        ([Dim San Pham].[Danh Muc].currentmember.Name= "Chăm sóc cá nhân" and  [Measures].[So Luong] >= 10) OR
+        ([Dim San Pham].[Danh Muc].currentmember.Name= "Chăm sóc cơ thể"and [Measures].[So Luong] >= 8) OR
+        ([Dim San Pham].[Danh Muc].currentmember.Name= "Chăm sóc da mặt"and[Measures].[So Luong] >= 8 )OR
+        ([Dim San Pham].[Danh Muc].currentmember.Name= "Chăm sóc sức khoẻ"and [Measures].[So Luong] >= 8) OR
+        ([Dim San Pham].[Danh Muc].currentmember.Name= "Chăm sóc tóc"and [Measures].[So Luong] >=  6)OR
+        ([Dim San Pham].[Danh Muc].currentmember.Name= "Trang điểm"and [Measures].[So Luong] >= 6),
+        "Đạt", 
+        "Không Đạt"
+    )
+
+SELECT
+    {
+        [Measures].[So Luong],
+        [Measures].[DanhGiaKPI]
+    } ON COLUMNS,
+    NON EMPTY 
+        CrossJoin(
+            [Dim Nhan Vien].[Ten Nhan Vien].Children * [Dim Nhan Vien].[Ma Nhan Vien].Children,
+            CrossJoin(
+                [Dim San Pham].[Danh Muc].Children,
+                [Dim Ngay].[Nam].&[2023] : [Dim Ngay].[Nam].&[2023]
+
+            )
+        ) ON ROWS
+FROM [N7 Guardian]

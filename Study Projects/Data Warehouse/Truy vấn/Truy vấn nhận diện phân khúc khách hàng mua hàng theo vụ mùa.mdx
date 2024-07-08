@@ -1,0 +1,34 @@
+WITH
+MEMBER [Measures].[LuotMuaTrungBinh] AS
+(
+([Measures].[Fact Ban Hang Count],[Dim Ngay].[Quy].&[1]) +
+([Measures].[Fact Ban Hang Count], [Dim Ngay].[Quy].&[2]) +
+([Measures].[Fact Ban Hang Count], [Dim Ngay].[Quy].&[3]) +
+([Measures].[Fact Ban Hang Count],[Dim Ngay].[Quy].&[4])
+) /4
+
+MEMBER [Measures].[Quy1] AS
+([Measures].[Fact Ban Hang Count], [Dim Ngay].[Quy].&[1])
+
+MEMBER [Measures].[Quy2] AS
+([Measures].[Fact Ban Hang Count], [Dim Ngay].[Quy].&[2])
+
+MEMBER [Measures].[Quy3] AS
+([Measures].[Fact Ban Hang Count], [Dim Ngay].[Quy].&[3])
+
+MEMBER [Measures].[Quy4] AS
+([Measures].[Fact Ban Hang Count], [Dim Ngay].[Quy].&[4])
+
+SELECT
+{
+[Measures].[Quy1],
+[Measures].[Quy2],
+[Measures].[Quy3],
+[Measures].[Quy4],
+[Measures].[LuotMuaTrungBinh]
+} ON COLUMNS,
+NON EMPTY
+{
+([Dim Khach Hang].[Ten Hang].CHILDREN, [Dim Nhan Vien].[Ten Thanh Pho].Children, [Dim Ngay].[Nam].[2023])
+} ON ROWS
+FROM [N7 Guardian]
