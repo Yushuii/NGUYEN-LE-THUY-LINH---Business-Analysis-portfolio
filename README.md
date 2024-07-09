@@ -22,7 +22,19 @@ Repository này được tạo ra để giới thiệu những kỹ năng phân 
   <code>baocao-banhang-dashboards.pbix</code></a> <a href = "https://github.com/Yushuii/NGUYEN-LE-THUY-LINH---Business-Analysis-portfolio/blob/d426b48180b4b80f3289b23922f0bcb5c2276916/Study%20Projects/Data%20Warehouse/B%C3%A1o%20c%C3%A1o%20b%C3%A1n%20h%C3%A0ng%20Dashboard.pdf">
   <code>baocao-banhang-dashboards.pdf</code></a><br>
 **Skills:** Power BI, Microsoft SQL Server, MDX, , Analysis Services, Data Warehouse <br>
-**Status:** Hoàn thành vào 2024
+**Status:** Hoàn thành vào 2024 <br>
+### SQL Exercises
+**Repository:** <a href = "https://github.com/Yushuii/NGUYEN-LE-THUY-LINH---Business-Analysis-portfolio/tree/d3eec496e070494c2c3d6dd8e418a875f539d6e3/Study%20Projects/SQL%20Exercises">
+  <code>SQL-Exercises</code></a> <br> 
+**Description:** Kho lưu trữ này gồm các truy vấn SQL mà tôi đã viết để hoàn thành các yêu cầu khác nhau trong đề bài. Mục tiêu chính là cải thiện kiến thức và sử dụng thành thạo SQL. <br>
+Các nội dung tôi đã làm: <br>
+* Tạo database và nhập dữ liệu từ file script cho bài tập.
+* Thiết lập ràng buộc toàn vẹn.
+* Truy vấn dữ liệu cơ bản để tìm thông tin yêu cầu.
+* Cập nhật/Thêm/Sửa/Xóa dữ liệu.
+* Truy vấn nâng cao theo yêu cầu đề bài. <br>
+**Skills:** SQL, Query <br>
+**Status:** Hoàn thành vào 2023
 ## Certificates
 * [Business Analysis Foundations](https://github.com/Yushuii/Yushuii/blob/3470380b4073e184a37b052ebadd1f97e6ed4041/Certificates/CertificateOfCompletion_Business%20Analysis%20Foundations.pdf) - Linkedin Learning, 2023
 * [Book Data for Community Mini Project](https://github.com/Yushuii/Yushuii/blob/3470380b4073e184a37b052ebadd1f97e6ed4041/Certificates/Book%20Data%20for%20Community%20Mini%20Project_Certificate.pdf) - Sach Chuyen Tay Books in the City, 2021
