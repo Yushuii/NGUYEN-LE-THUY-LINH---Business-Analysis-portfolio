@@ -33,8 +33,6 @@ Các nội dung tôi đã làm: <br>
 * Truy vấn dữ liệu cơ bản để tìm thông tin yêu cầu.
 * Cập nhật/Thêm/Sửa/Xóa dữ liệu.
 * Truy vấn nâng cao theo yêu cầu đề bài. <br>
-**Skills:** SQL, Query <br>
-**Status:** Hoàn thành vào 2023
 ## Certificates
 * [Business Analysis Foundations](https://github.com/Yushuii/Yushuii/blob/3470380b4073e184a37b052ebadd1f97e6ed4041/Certificates/CertificateOfCompletion_Business%20Analysis%20Foundations.pdf) - Linkedin Learning, 2023
 * [Book Data for Community Mini Project](https://github.com/Yushuii/Yushuii/blob/3470380b4073e184a37b052ebadd1f97e6ed4041/Certificates/Book%20Data%20for%20Community%20Mini%20Project_Certificate.pdf) - Sach Chuyen Tay Books in the City, 2021
