@@ -13,9 +13,15 @@ Repository này được tạo ra để giới thiệu những kỹ năng phân 
 ## Study Projects
 ### Cơ sở dữ liệu mô phỏng cửa hàng bán lẻ Guardian
 **Repository:** <a href = "https://github.com/Yushuii/Yushuii/tree/cbf3f3a2af009a95c4660a0320b0fd01a49fb64b/Study%20Projects/Data%20Warehouse">
-  <code>data-mdx-sql-analysis</code></a> <br> 
+  <code>data-powerbi-sql-analysis</code></a> <br> 
 **Description:** Kho lưu trữ này chứa các tệp đã được hoàn thành trong môn học Cơ sở dữ liệu nâng cao tại trường đại học bao gồm tác vụ: Tạo cơ sở dữ liệu mô phỏng cửa hàng bán lẻ Guardian, ngoài chức năng kết nối dữ liệu excel cơ bản còn truy vấn MDX nhằm hỗ trợ ra quyết định. Mục tiêu chính là cải thiện khả năng phân tích dựa trên kết quả truy vấn . <br>
-**Skills:** , Microsoft SQL Server, MDX, , Analysis Services, Data Warehouse <br>
+**Code:** <a href = "https://github.com/Yushuii/NGUYEN-LE-THUY-LINH---Business-Analysis-portfolio/blob/d426b48180b4b80f3289b23922f0bcb5c2276916/Study%20Projects/Data%20Warehouse/Source%20Code%20Table.sql">
+  <code>source-code-table.sql</code></a> <a href = "https://github.com/Yushuii/NGUYEN-LE-THUY-LINH---Business-Analysis-portfolio/blob/d426b48180b4b80f3289b23922f0bcb5c2276916/Study%20Projects/Data%20Warehouse/Source%20Code%20Data.sql">
+  <code>source-code-data.sql</code></a><br>
+**Power BI dashboards:** <a href = "https://github.com/Yushuii/NGUYEN-LE-THUY-LINH---Business-Analysis-portfolio/blob/d426b48180b4b80f3289b23922f0bcb5c2276916/Study%20Projects/Data%20Warehouse/B%C3%A1o%20c%C3%A1o%20b%C3%A1n%20h%C3%A0ng%20Dashboard.pbix">
+  <code>baocao-banhang-dashboards.pbix</code></a> <a href = "https://github.com/Yushuii/NGUYEN-LE-THUY-LINH---Business-Analysis-portfolio/blob/d426b48180b4b80f3289b23922f0bcb5c2276916/Study%20Projects/Data%20Warehouse/B%C3%A1o%20c%C3%A1o%20b%C3%A1n%20h%C3%A0ng%20Dashboard.pdf">
+  <code>baocao-banhang-dashboards.pdf</code></a><br>
+**Skills:** Power BI, Microsoft SQL Server, MDX, , Analysis Services, Data Warehouse <br>
 **Status:** Hoàn thành vào 2024
 ## Certificates
 * [Business Analysis Foundations](https://github.com/Yushuii/Yushuii/blob/3470380b4073e184a37b052ebadd1f97e6ed4041/Certificates/CertificateOfCompletion_Business%20Analysis%20Foundations.pdf) - Linkedin Learning, 2023
