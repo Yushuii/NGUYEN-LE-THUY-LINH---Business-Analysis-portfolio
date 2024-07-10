@@ -33,6 +33,20 @@ Các nội dung tôi đã làm: <br>
 * Truy vấn dữ liệu cơ bản để tìm thông tin yêu cầu.
 * Cập nhật/Thêm/Sửa/Xóa dữ liệu.
 * Truy vấn nâng cao theo yêu cầu đề bài. <br>
+### Ứng dụng mô hình học máy trong việc dự đoán khả năng bỏ học hay tốt nghiệp của sinh viên 
+**Repository:** <a href = "https://github.com/Yushuii/NGUYEN-LE-THUY-LINH---Business-Analysis-portfolio/tree/823a622630da38ee5b60cf37296da02d40055a80/Study%20Projects/Machine%20Learning%20with%20Orange">
+  <code>MachineLearning-Orange</code></a> <br> 
+**Description:** Kho lưu trữ này chứa các tệp đã được hoàn thành trong môn học Khoa học dữ liệu tại trường đại học bao gồm tác vụ: Tiền xử lý dữ liệu, So sánh & đánh giá các mô hình phân lớp khác nhau. Phân tích các yếu tố ảnh hưởng đến khả năng bỏ học của sinh viên. Đề xuất các giải pháp để giảm thiểu tỷ lệ bỏ học dựa trên kết quả phân tích. Mục tiêu chính là cải thiện kiến thức và sử dụng thành thạo SQL. <br>
+
+Các nội dung tôi đã làm: <br>
+* Kỹ thuật tiền xử lý dữ liệu: Xử lý thiếu dữ liệu, mã hóa dữ liệu,...
+* Kỹ thuật phân lớp: Sử dụng các mô hình Hồi quy Logistic, SVM, Cây quyết định, Neural Network để dự đoán sinh viên bỏ học.
+* Kỹ thuật đánh giá mô hình: Sử dụng các chỉ số như AUC, AC, Recall, F1-score để đánh giá hiệu quả của các mô hình. <br> <br>
+
+**Original dataset:** <a href = "https://www.kaggle.com/datasets/thedevastator/higher-education-predictors-of-student-retention?resource=download">
+  <code>Kaggle</code></a>  <a href = "https://github.com/Yushuii/NGUYEN-LE-THUY-LINH---Business-Analysis-portfolio/blob/823a622630da38ee5b60cf37296da02d40055a80/Study%20Projects/Machine%20Learning%20with%20Orange/dataset.csv">
+  <code>dataset.csv</code></a> <br> 
+Bộ dữ liệu này này chứa thông tin sinh viên từ năm học 2008-2019. Bao gồm dữ liệu từ 17 chương trình cử nhân trải rộng các lĩnh vực. Tập dữ liệu này chứa 4424 bản ghi và 35 thuộc tính, được lưu trữ dưới dạng tệp CSV và không có dữ liệu nào bị thiếu.
 ## Certificates
 * [Business Analysis Foundations](https://github.com/Yushuii/Yushuii/blob/3470380b4073e184a37b052ebadd1f97e6ed4041/Certificates/CertificateOfCompletion_Business%20Analysis%20Foundations.pdf) - Linkedin Learning, 2023
 * [Book Data for Community Mini Project](https://github.com/Yushuii/Yushuii/blob/3470380b4073e184a37b052ebadd1f97e6ed4041/Certificates/Book%20Data%20for%20Community%20Mini%20Project_Certificate.pdf) - Sach Chuyen Tay Books in the City, 2021
