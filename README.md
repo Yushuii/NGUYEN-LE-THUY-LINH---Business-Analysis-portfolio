@@ -1,4 +1,4 @@
-# NGUYỄN LÊ THÙY LINH - Business Analysis portfolio
+# NGUYỄN LÊ THÙY LINH - Data Business Analysis portfolio
 ## About me 👋
 Xin chào mọi người! Tôi là Nguyễn Lê Thùy Linh, sinh viên năm thứ 2 tại Đại học Kinh tế TP.HCM (UEH). Tôi đang tìm kiếm cơ hội để nâng cao kỹ năng và kiến thức trong lĩnh vực DA/BA. Mục tiêu của tôi là phát triển các kỹ năng kỹ thuật như statistical analysis (R, Python,...),  data visualization (Power BI), Requirements Management trong một môi trường uy tín. Với tư duy phân tích và giải quyết vấn đề, tôi tự tin mang lại những thành tích xuất sắc trong các dự án.
 
